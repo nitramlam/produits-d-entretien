@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(57, 144, 57);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+h1 {
+    margin: 0;
+}
+
+.home-link {
+    text-align: right;
+    margin-right: 20px; /* Ajout de marges à droite pour l'espacement */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h3 {
+    color: rgb(57, 144, 57);
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.facultatif {
+    font-style: italic;
+    color: #888;
+}
+
+.explication {
+    font-size: 0.9em;
+    color: #888;
+}
+
+aside {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Correction pour le style du lien hypertexte */
+.home-link a {
+    color: white; /* Couleur du lien dans le header */
+    text-decoration: none;
+}
+
+.home-link a:hover {
+    text-decoration: underline;
+}
